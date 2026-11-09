@@ -1,0 +1,9 @@
+{
+  "name": "WePlayTrainsGetRadar",
+  "version": "0.1.0",
+  "title": "WePlay: Trains Get Radar",
+  "author": "afewvowels",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1.0"],
+  "description": "Every locomotive charts the map around it like a radar, so your rail network lights up on the map as trains run. No equipment, no hidden entities, no power. Moving trains chart constantly, parked trains refresh on a slower timer, and overlapping trains share the work. Works with modded locomotives, Space Age, and Space Exploration."
+}

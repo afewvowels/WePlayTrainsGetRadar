@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-11-07
+  Features:
+    - Every locomotive charts the map around it like a radar.
+    - Moving locomotives chart every scan interval; parked locomotives refresh on a slower timer.
+    - Overlapping locomotives share chunks, so busy stations cost about the same as a single train.
+    - Work is spread across ticks to avoid lag spikes on large networks.
+    - Picks up locomotives from any mod, including ones created by script.
